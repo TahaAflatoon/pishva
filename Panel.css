@@ -1,0 +1,454 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Iransansweb;
+    src: url('./Fonts/IRANSansWeb.ttf');
+}
+:root {
+    --white: #fff;
+    --black: #000;
+}
+
+/* CSS */
+body {
+    background: url('./Images/Carspark_dark.jpg') fixed center/cover;
+}
+/* Header */
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    opacity: 0.8;
+}
+.header_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-family: Iransansweb;
+}
+.exit, .header_title {
+    display: inline-block;
+    color: var(--white);
+    text-decoration: none;
+}
+.exit, .header_title h1 {
+    font-size: 16pt;
+    height: 50px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.logo {
+    width: 25px;
+    height: 25px;
+}
+.exit {
+    padding: 8px 15px 0;
+}
+.header_title h1 {
+    padding: 12px 15px 0;
+}
+.exit:hover, .header_title h1:hover {
+    background-color: #444;
+    color: #f7c08a;
+}
+/* Panel sections */
+.panel_sections {
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 50px 0 0;
+}
+.welcome, .profile, .pelaks, .wallet, .bill, .info {
+    width: 50%;
+    height: 620px;
+    font-family: Iransansweb;
+    color: var(--white);
+    text-align: center;
+    padding: 30px 0 0;
+}
+.welcome, .profile, .pelaks, .wallet {
+    border-bottom: 1px dotted var(--white);
+}
+/* Welcome */
+.welcome_list {
+    list-style-type: none;
+    width: auto;
+    height: auto;
+}
+.welcome_list li {
+    margin: 42.5px 0 0;
+}
+.welcome_links {
+    text-decoration: none;
+    color: var(--white);
+    display: inline-block;
+    font-size: 13pt;
+    width: 350px;
+    padding: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.welcome_links:hover {
+    color: var(--white);
+    background-color: #444;
+}
+.welcome_icons {
+    width: 25px;
+    height: 25px;
+}
+/* Sections icon */
+.sections_icon {
+    width: 40px;
+    height: 40px;
+}
+/* Profile */
+.profile_list {
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    direction: rtl;
+}
+.profile_list li {
+    margin: 57px 0 0;
+}
+.profile_titles {
+    padding: 0 0 20px;
+}
+.profile_details {
+    font-size: 15pt;
+}
+.changepass_btn {
+    text-decoration: none;
+    background-color: #444;
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.changepass_btn:hover {
+    background-color: #333;
+    color: var(--white);
+}
+/* Pelaks */
+.pelaks {
+    direction: rtl;
+}
+.pelaks h3, .dropdown, .pelak_container, .last_park {
+    margin: 70px 0 0;
+}
+/* Dropdown */
+.dropdown {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+}
+.dropbtn {
+    background-color: #444;
+    padding: 7.5px 0;
+    color: var(--white);
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dropdown_content {
+    width: 100%;
+    height: auto;
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0 auto;
+    position: absolute;
+}
+.dropdown_content a {
+    color: var(--black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown_content a:hover {
+    background-color: #ddd;
+}
+.dropdown_content a:last-child:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #333;
+}
+/* Pelak design */
+.pelak_container {
+    display: inline-block;
+}
+.pelak_design {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    direction: ltr;
+    border: 5px solid var(--black);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pelak_country {
+    background-color: blue;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 0 10px;
+}
+.pelak_details {
+    width: 250px;
+    height: auto;
+    background-color: var(--white);
+    color: var(--black);
+}
+.pelak_year {
+    width: auto;
+    height: auto;
+    border-left: 5px solid var(--black);
+    padding: 0 15px;
+    background-color: var(--white);
+    color: var(--black);
+}
+.iran_flag {
+    width: 35px;
+    height: 35px;
+}
+.iran_abbr {
+    font-size: 10pt;
+}
+.pelak_details2 {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: auto;
+}
+.pelak_details2 li {
+    font-size: 25pt;
+    padding: 15px 0 0;
+}
+.year_number {
+    font-size: 20pt;
+    padding: 8px 0 0;
+    display: inline-block;
+}
+.last_park h3 {
+    padding: 0 0 15px;
+}
+.last_park span {
+    font-size: 15pt;
+}
+/* Wallet */
+.wallet {
+    direction: rtl;
+}
+/* Progress bar */
+.progress_contain {
+    width: 300px;
+    height: 300px;
+    border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    -moz-border-radius: 7.5px;
+    -ms-border-radius: 7.5px;
+    -o-border-radius: 7.5px;
+    margin: 0 auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circular-progress {
+    width: 275px;
+    height: 275px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circular-progress::before {
+    content: "";
+    width: 250px;
+    height: 250px;
+    background-color: #444;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 1;
+}
+.contain-value {
+    position: relative;
+    color: var(--white);
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+.progress_text {
+    color: var(--white);
+    font-size: 14pt;
+}
+.remaining_credit {
+    padding: 0 0 15px;
+}
+.charge_btn {
+    text-decoration: none;
+    background-color: #444;
+    color: var(--white);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    padding: 10px 0;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.charge_btn:hover {
+    background-color: #333;
+    color: #f7c08a;
+}
+.progress_contain, .progress_text, .charge {
+    margin: 25px auto 0;
+}
+/* Bill */
+.bill {
+    direction: rtl;
+}
+.table {
+    width: 400px;
+    margin: 50px auto 0;
+}
+.table th, .table td {
+    padding: 15px 0;
+}
+.table th:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.table td:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+/* Info */
+.info {
+    direction: rtl;
+}
+.info_list {
+    list-style-type: none;
+}
+.info_parts {
+    margin: 44px 0 0;
+}
+.info_parts h3 {
+    padding: 0 0 20px;
+}
+.info_details {
+    font-size: 14pt;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    color: var(--white);
+    padding: 15px 0;
+    opacity: 0.8;
+}
+.footer_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    direction: rtl;
+    font-family: Iransansweb;
+}
+.footer_list li {
+    padding: 5px 0;
+}
+.developers {
+    width: 50%;
+    height: auto;
+}
+.university_reserve {
+    width: 100%;
+    height: auto;
+}
+.developers, .university_reserve {
+    text-align: center;
+}
+
+/* .welcome {
+    background-color: #444;
+}
+.profile {
+    background-color: blue;
+}
+.pelaks {
+    background-color: blueviolet;
+}
+.wallet {
+    background-color: brown;
+}
+.bill {
+    background-color: burlywood;
+}
+.info {
+    background-color: cadetblue;
+} */

@@ -1,0 +1,638 @@
+/* Responsive */
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+    /* Header */
+    .exit, .header_title h1 {
+        font-size: 12pt;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    .exit {
+        padding: 12px 15px 0;
+    }
+    .header_title h1 {
+        padding: 15px 15px 0;
+    }
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+    }
+    .welcome, .profile, .pelaks, .wallet, .bill {
+        border-bottom: 1px dotted #fff;
+    }
+    /* Welcome */
+    .welcome {
+        height: auto;
+        padding: 25px 0 35px;
+    }
+    .welcome_list li {
+        margin: 32.5px 0 0;
+    }
+    .welcome_links {
+        width: 250px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .profile_list li {
+        margin: 45px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    .dropdown {
+        width: 250px;
+    }
+    .pelak_details {
+        width: 150px;
+    }
+    .pelak_details2 li {
+        font-size: 18pt;
+        padding: 20px 0 0;
+    }
+    .pelak_year {
+        padding: 0 10px;
+    }
+    .year_number {
+        font-size: 18pt;
+        padding: 8px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        height: auto;
+        padding: 20px 0 30px;
+    }
+    .progress_contain {
+        width: 275px;
+        height: 250px;
+    }
+    .circular-progress {
+        width: 225px;
+        height: 225px;
+    }
+    .circular-progress::before {
+        width: 200px;
+        height: 200px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 20px auto 0;
+    }
+    /* Bill */
+    .bill {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .table {
+        width: 275px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .info_parts {
+        margin: 30px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+    /* Footer */
+    .developers {
+        width: 100%;
+    }
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+    /* Header */
+    .exit, .header_title h1 {
+        font-size: 12pt;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    .exit {
+        padding: 12px 15px 0;
+    }
+    .header_title h1 {
+        padding: 15px 15px 0;
+    }
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+    }
+    .welcome, .profile, .pelaks, .wallet, .bill {
+        border-bottom: 1px dotted #fff;
+    }
+    /* Welcome */
+    .welcome {
+        height: auto;
+        padding: 25px 0 35px;
+    }
+    .welcome_list li {
+        margin: 32.5px 0 0;
+    }
+    .welcome_links {
+        width: 275px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .profile_list li {
+        margin: 45px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    .dropdown {
+        width: 275px;
+    }
+    .pelak_details {
+        width: 175px;
+    }
+    .pelak_details2 li {
+        font-size: 18pt;
+        padding: 20px 0 0;
+    }
+    .pelak_year {
+        padding: 0 10px;
+    }
+    .year_number {
+        font-size: 18pt;
+        padding: 8px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        height: auto;
+        padding: 20px 0 30px;
+    }
+    .progress_contain {
+        width: 275px;
+        height: 250px;
+    }
+    .circular-progress {
+        width: 225px;
+        height: 225px;
+    }
+    .circular-progress::before {
+        width: 200px;
+        height: 200px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 20px auto 0;
+    }
+    /* Bill */
+    .bill {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .table {
+        width: 300px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .info_parts {
+        margin: 37.5px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+    /* Footer */
+    .developers {
+        width: 100%;
+    }
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+    /* Header */
+    .exit, .header_title h1 {
+        font-size: 12pt;
+    }
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+    .exit {
+        padding: 12px 15px 0;
+    }
+    .header_title h1 {
+        padding: 15px 15px 0;
+    }
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+    }
+    .welcome, .profile, .pelaks, .wallet, .bill {
+        border-bottom: 1px dotted #fff;
+    }
+    /* Welcome */
+    .welcome {
+        height: auto;
+        padding: 25px 0 35px;
+    }
+    .welcome_list li {
+        margin: 32.5px 0 0;
+    }
+    .welcome_links {
+        width: 275px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .profile_list li {
+        margin: 45px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    .dropdown {
+        width: 300px;
+    }
+    .pelak_details {
+        width: 175px;
+    }
+    .pelak_details2 li {
+        font-size: 18pt;
+        padding: 20px 0 0;
+    }
+    .pelak_year {
+        padding: 0 10px;
+    }
+    .year_number {
+        font-size: 18pt;
+        padding: 8px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        height: auto;
+        padding: 20px 0 30px;
+    }
+    .progress_contain {
+        width: 275px;
+        height: 250px;
+    }
+    .circular-progress {
+        width: 225px;
+        height: 225px;
+    }
+    .circular-progress::before {
+        width: 200px;
+        height: 200px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 20px auto 0;
+    }
+    /* Bill */
+    .bill {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .table {
+        width: 350px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .info_parts {
+        margin: 37.5px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+    /* Footer */
+    .developers {
+        width: 100%;
+    }
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+        height: 535px;
+    }
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+    }
+    .welcome, .profile, .pelaks, .wallet, .bill {
+        border-bottom: 1px dotted #fff;
+    }
+    /* Welcome */
+    .welcome {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .welcome_list li {
+        margin: 32.5px 0 0;
+    }
+    .welcome_links {
+        width: 350px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        height: auto;
+        padding: 15px 0 35px;
+    }
+    .profile_list li {
+        margin: 45px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    .dropdown {
+        width: 350px;
+    }
+    .pelak_details {
+        width: 225px;
+    }
+    .pelak_details2 li {
+        font-size: 18pt;
+        padding: 20px 0 0;
+    }
+    .pelak_year {
+        padding: 0 10px;
+    }
+    .year_number {
+        font-size: 18pt;
+        padding: 8px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        height: auto;
+        padding: 20px 0 30px;
+    }
+    .progress_contain {
+        width: 300px;
+        height: 275px;
+    }
+    .circular-progress {
+        width: 250px;
+        height: 250px;
+    }
+    .circular-progress::before {
+        width: 225px;
+        height: 225px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 12.5px auto 0;
+    }
+    /* Bill */
+    .bill {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .table {
+        width: 350px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .info_parts {
+        margin: 37.5px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        width: 100%;
+    }
+    .welcome, .profile, .pelaks, .wallet, .bill {
+        border-bottom: 1px dotted #fff;
+    }
+    /* Welcome */
+    .welcome {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .welcome_list li {
+        margin: 32.5px 0 0;
+    }
+    .welcome_links {
+        width: 375px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        height: auto;
+        padding: 15px 0 35px;
+    }
+    .profile_list li {
+        margin: 45px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        height: auto;
+        padding: 20px 0 30px;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        height: auto;
+        padding: 15px 0 30px;
+    }
+    .progress_contain {
+        width: 300px;
+        height: 275px;
+    }
+    .circular-progress {
+        width: 250px;
+        height: 250px;
+    }
+    .circular-progress::before {
+        width: 225px;
+        height: 225px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 12.5px auto 0;
+    }
+    /* Bill */
+    .bill {
+        height: auto;
+        padding: 20px 0 40px;
+    }
+    .table {
+        width: 450px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        height: auto;
+        padding: 20px 0 35px;
+    }
+    .info_parts {
+        margin: 37.5px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+}
+
+/* Laptop (medium) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /* Panel sections */
+    .welcome, .profile, .pelaks, .wallet, .bill, .info {
+        height: 535px;
+    }
+    /* Welcome */
+    .welcome {
+        padding: 25px 0 0;
+    }
+    .welcome_list li {
+        margin: 30px 0 0;
+    }
+    .welcome_links {
+        width: 325px;
+        padding: 10px 0;
+    }
+    /* Profile */
+    .profile {
+        padding: 15px 0 0;
+    }
+    .profile_list li {
+        margin: 41px 0 0;
+    }
+    /* Pelaks */
+    .pelaks {
+        padding: 15px 0 0;
+    }
+    .pelaks h3, .dropdown, .pelak_container, .last_park {
+        margin: 55px 0 0;
+    }
+    /* Wallet */
+    .wallet {
+        padding: 15px 0 0;
+    }
+    .progress_contain {
+        width: 300px;
+        height: 275px;
+    }
+    .circular-progress {
+        width: 250px;
+        height: 250px;
+    }
+    .circular-progress::before {
+        width: 225px;
+        height: 225px;
+    }
+    .charge_btn {
+        width: 250px;
+    }
+    .progress_contain, .progress_text, .charge {
+        margin: 12.5px auto 0;
+    }
+    /* Bill */
+    .bill {
+        padding: 20px 0 0;
+    }
+    .table {
+        width: 350px;
+        margin: 40px auto 0;
+    }
+    .table th, .table td {
+        padding: 12px 0;
+    }
+    /* Info */
+    .info {
+        padding: 20px 0 0;
+    }
+    .info_parts {
+        margin: 32.5px 0 0;
+    }
+    .info_details {
+        font-size: 13pt;
+    }
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+
+}
+
+/* Size (extra_large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}
