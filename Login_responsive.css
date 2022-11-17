@@ -1,0 +1,143 @@
+/* Responsive */
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+    /* Login box */
+    .login_container {
+        width: 300px;
+    }
+    /* Login title */
+    .login_title {
+        font-size: 16pt;
+    }
+    .university_logo {
+        width: 25px;
+        height: 25px;
+    }
+    /* Form */
+    .form_intro {
+        font-size: 11pt;
+    }
+    .form_input {
+        width: 200px;
+    }
+    .guide_text {
+        font-size: 11pt;
+    }
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+    /* Login box */
+    .login_container {
+        width: 350px;
+    }
+    /* Login title */
+    .login_title {
+        font-size: 16pt;
+    }
+    .university_logo {
+        width: 25px;
+        height: 25px;
+    }
+    /* Form */
+    .form_intro {
+        font-size: 11pt;
+    }
+    .form_input {
+        width: 250px;
+    }
+    .guide_text {
+        font-size: 11pt;
+    }
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+    /* Login box */
+    .login_container {
+        width: 400px;
+    }
+    /* Login title */
+    .login_title {
+        font-size: 15pt;
+    }
+    .university_logo {
+        width: 25px;
+        height: 25px;
+    }
+    /* Form */
+    .form_intro {
+        font-size: 11pt;
+    }
+    .form_input {
+        width: 250px;
+    }
+    .guide_text {
+        font-size: 11pt;
+    }
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+    /* Login box */
+    .login_container {
+        width: 500px;
+    }
+    /* Login title */
+    .login_title {
+        font-size: 16pt;
+    }
+    .university_logo {
+        width: 25px;
+        height: 25px;
+    }
+    /* Form */
+    .form_intro {
+        font-size: 11pt;
+    }
+    .form_input {
+        width: 275px;
+    }
+    .guide_text {
+        font-size: 11pt;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* Login box */
+    .login_container {
+        width: 700px;
+    }
+    .login_img {
+        height: 200px;
+    }
+    .university_logo {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Laptop (medium) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+    /* Login box */
+    .login_container {
+        width: 700px;
+    }
+    .login_img {
+        height: 250px;
+    }
+    .form_intro {
+        font-size: 13pt;
+    }
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+
+}
+
+/* Size (extra_large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}
