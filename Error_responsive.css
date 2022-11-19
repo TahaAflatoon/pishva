@@ -1,6 +1,7 @@
 /* Responsive */
 /* Mobile (small) */
 @media screen and (min-width:320px) and (max-width:374px) {
+    /* Error box */
     .error_box {
         width: 275px;
     }
@@ -18,6 +19,7 @@
 
 /* Mobile (medium) */
 @media screen and (min-width:375px) and (max-width:424px) {
+    /* Error box */
     .error_box {
         width: 325px;
     }
@@ -35,6 +37,7 @@
 
 /* Mobile (large) */
 @media screen and (min-width:425px) and (max-width:575px) {
+    /* Error box */
     .error_box {
         width: 350px;
     }

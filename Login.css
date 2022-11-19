@@ -64,10 +64,13 @@ body {
     width: auto;
     height: auto;
 }
-.form_toggle {
+.form_icon {
     width: 30px;
     height: 30px;
     margin: 0 0 0 10px;
+}
+.form_icon:hover {
+    cursor: pointer;
 }
 .form_input {
     width: 300px;
