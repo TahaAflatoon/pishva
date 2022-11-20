@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="refresh" content="">
+        <base href="" target="">
+        <link rel="pingback" href="https://domainname.com/example.php"/>
+        <title> تغییر گذرواژه | پارکینگ دانشگاه پیشوا ورامین </title>
+        <!-- CSS Links -->
+        <style>
+        
+        </style>
+        <link rel="stylesheet" href="./Bootstrap/CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="./JQuery/JQuery_UI/CSS/jquery-ui.min.css">
+        <link rel="stylesheet" href="./FontAwesome/CSS/all.min.css">
+        <link rel="stylesheet" href="./Passchage.css">
+        <link rel="stylesheet" href="./Passchange_responsive.css">
+        <!-- Meta Properties -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content="">
+        <meta name="author" content="Taha Aflatoon Bakhshayesh">
+        <!-- Favicon -->
+        <link type="image/png" sizes="16x16" rel="icon" href="./Images/University_logo.png">
+    </head>
+    <!-- Body -->
+    <body>
+        <!-- Main -->
+        <center class="passchange_box">
+            <!-- Passchange title -->
+                <h1 class="passchange_title">
+                    <img src="./Images/Passchange.png" alt="passchange title icon" class="passchange_icon">
+                    تغییر گذر واژه 
+                </h1>
+                <p class="form_intro"> لطفا اطلاعات زیر را پر کنید. </p>
+                <!-- Form -->
+                <form action="./example.com" method="post" autocomplete="on">
+                    <div class="form-group">
+                        <label for="current pass" class="form_labels"> گذر واژه فعلی : </label>
+                        <img src="./Images/Passeye.png" alt="form inputs icon" class="inputs_icon" onclick="current_pass()">
+                        <input type="password" name="currentpass" id="currentpass" class="form_inputs" placeholder="گذر واژه فعلی ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="new pass" class="form_labels"> گذر واژه جدید : </label>
+                        <img src="./Images/Passeye.png" alt="form inputs icon" class="inputs_icon" onclick="new_pass()">
+                        <input type="password" name="newpass" id="newpass" class="form_inputs" placeholder="گذر واژه جدید ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmation pass" class="form_labels"> تایید گذر واژه : </label>
+                        <img src="./Images/Passeye.png" alt="form inputs icon" class="inputs_icon" onclick="confirm_pass()">
+                        <input type="password" name="newpass_confirm" id="newpass_confirm" class="form_inputs" placeholder="تایید گذر واژه جدید ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="temporary code" class="form_labels"> کد موقت : </label>
+                        <img src="./Images/Passeye.png" alt="form inputs icon" class="inputs_icon" onclick="temp_code()">
+                        <input type="password" name="timed_code" id="timed_code" class="form_inputs temp_input" placeholder="کد موقت">
+                        <a href="#" class="passchange_buttons tempcode_btn" target="_blank" onclick="total()"> دریافت کد </a>
+                        <span id="timer"> 2:00 </span>
+                    </div>
+                    <!-- Form buttons -->
+                    <div class="form-group">
+                        <button type="submit" class="passchange_buttons submit"> ذخیره </button>
+                        <a href="./index.html" class="passchange_buttons return"> بازگشت </a>
+                    </div>
+                </form>
+        </center>
+
+        <!-- JS Links -->
+        <script>
+        
+        </script>
+        <script src="./JQuery/jquery-3.6.0.min.js"></script>
+        <script src="./JQuery/JQuery_UI/JS/jquery-ui.min.js"></script>
+        <script src="./Bootstrap/JS/bootstrap.bundle.min.js"></script>
+        <script src="./FontAwesome/JS/all.min.js"></script>
+        <script src="./Passchange.js"></script>
+    </body>
+</html>

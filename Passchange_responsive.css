@@ -1,0 +1,76 @@
+/* Responsive */
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+    .passchange_box {
+        width: 300px;
+    }
+    /* Form */
+    .form_inputs {
+        width: 200px;
+    }
+    .temp_input {
+        width: 100px;
+    }
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+    .passchange_box {
+        width: 350px;
+    }
+    /* Form */
+    .form_inputs {
+        width: 250px;
+    }
+    .temp_input {
+        width: 100px;
+    }
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+    .passchange_box {
+        width: 375px;
+    }
+    /* Form */
+    .form_inputs {
+        width: 250px;
+    }
+    .temp_input {
+        width: 100px;
+    }
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+    .passchange_box {
+        width: 400px;
+    }
+    /* Form */
+    .form_inputs {
+        width: 250px;
+    }
+    .temp_input {
+        width: 100px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+}
+
+/* Laptop (medium) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+
+}
+
+/* Size (extra_large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}
