@@ -23,7 +23,7 @@ html, body {
     height: 100%;
 }
 body {
-    background: url('./Images/Carspark_dark.jpg') center center/cover no-repeat;
+    background: url('./Images/University2.jpg') center center/cover no-repeat;
     display: grid;
     place-items: center;
 }
