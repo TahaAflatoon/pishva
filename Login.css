@@ -29,8 +29,6 @@ body {
 /* Login box */
 .login_box {
     position: absolute;
-    top: 5%;
-    padding-bottom: 20px;
 }
 .login_container {
     width: 650px;
