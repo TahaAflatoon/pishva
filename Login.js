@@ -10,9 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     particleground(document.getElementById('body'), {
         dotColor: '#fff',
         lineColor: '#0d6efd'
-});
-    let intro = document.getElementById('intro');
-    intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
+        });
     }, false);
 
     ;(function(window, document) {
@@ -160,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Re-index particles
-        for (i = particles.length - 1; i >= 0; i--) {
+        for (let i = particles.length - 1; i >= 0; i--) {
             particles[i].setStackPos(i);
         };
     }
