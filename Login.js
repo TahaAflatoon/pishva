@@ -8,8 +8,8 @@ jQuery(document).ready(function($) {
 // Particle background
 document.addEventListener('DOMContentLoaded', function () {
     particleground(document.getElementById('body'), {
-        dotColor: '#00ffff',
-        lineColor: '#fff'
+        dotColor: '#fff',
+        lineColor: '#0d6efd'
 });
     let intro = document.getElementById('intro');
     intro.style.marginTop = - intro.offsetHeight / 2 + 'px';

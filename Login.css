@@ -29,6 +29,10 @@ body {
 /* Login box */
 .login_box {
     position: absolute;
+    width: auto;
+    height: 100%;
+    display: grid;
+    place-items: center;
 }
 .login_container {
     width: 650px;
