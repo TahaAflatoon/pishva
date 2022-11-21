@@ -26,7 +26,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 /* CSS */
 body {
-    background: url('./Images/Carspark_dark.jpg') fixed center/cover no-repeat;
+    background: url('./Images/University2.jpg') fixed center/cover no-repeat;
     display: grid;
     place-items: center;
 }
