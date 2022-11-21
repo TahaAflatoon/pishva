@@ -172,9 +172,6 @@
     .login_container {
         width: 700px;
     }
-    .login_img {
-        height: 200px;
-    }
     .university_logo {
         width: 35px;
         height: 35px;
@@ -193,9 +190,6 @@
     /* Login box */
     .login_container {
         width: 700px;
-    }
-    .login_img {
-        height: 250px;
     }
     .form_intro {
         font-size: 13pt;
