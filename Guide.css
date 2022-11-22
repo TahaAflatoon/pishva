@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Iransansweb;
+    src: url('./Fonts/IRANSansWeb.ttf');
+}
+:root {
+    --white: #fff;
+    --black: #000;
+}
+
+/* CSS */
+body {
+    background: url('./Images/University2.jpg') fixed center/cover;
+    display: grid;
+    place-items: center;
+}
+/* Guide box */
+.guide_box {
+    width: 400px;
+    height: auto;
+    font-family: Iransansweb;
+    direction: rtl;
+    padding: 15px 0;
+}
+/* Header */
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: var(--white);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header_list li {
+    padding: 0 15px;
+}
+.logo_img {
+    width: 25px;
+    height: 25px;
+}
+.university_title {
+    font-size: 12pt;
+}
+.guide_title {
+    font-size: 12pt;
+}
+/* Main */
+.main {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: var(--white);
+    text-align: right;
+    line-height: 2;
+}
+.main_icon {
+    width: 40px;
+    height: 40px;
+}
+.main_title {
+    padding: 0 0 15px;
+    font-size: 20pt;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #444;
+    color: var(--white);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer_list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer_parts {
+    width: 50%;
+    padding: 15px 0 5px;
+}
+.footer_links {
+    text-decoration: none;
+    color: #7fffd4;
+}
+.university_reserve {
+    width: 100%;
+    padding: 5px 0 15px;
+}

@@ -1,0 +1,86 @@
+/* Responsive */
+/* Mobile (small) */
+@media screen and (min-width:320px) and (max-width:374px) {
+    /* Guide box */
+    .guide_box {
+        width: 310px;
+        height: auto;
+    }
+    /* Header */
+    .header_list li {
+        padding: 0 12px;
+    }
+    .logo_img {
+        width: 20px;
+        height: 20px;
+    }
+    .university_title {
+        font-size: 11pt;
+    }
+    .guide_title {
+        font-size: 11pt;
+    }
+    /* Main */
+    .main_icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Mobile (medium) */
+@media screen and (min-width:375px) and (max-width:424px) {
+    /* Guide box */
+    .guide_box {
+        width: 350px;
+        height: auto;
+    }
+    /* Header */
+    .header_list li {
+        padding: 0 12px;
+    }
+    .logo_img {
+        width: 20px;
+        height: 20px;
+    }
+    .university_title {
+        font-size: 11pt;
+    }
+    .guide_title {
+        font-size: 11pt;
+    }
+    /* Main */
+    .main_icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Mobile (large) */
+@media screen and (min-width:425px) and (max-width:575px) {
+
+}
+
+/* Size (small) */
+@media screen and (min-width:576px) and (max-width:767px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+}
+
+/* Laptop (medium) */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+}
+
+/* Laptop (large) */
+@media screen and (min-width:1200px) and (max-width:1439px) {
+
+}
+
+/* Size (extra_large) */
+@media screen and (min-width:1440px) and (max-width:2559px) {
+
+}
