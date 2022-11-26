@@ -15,6 +15,8 @@ figure, header, nav, section, article, aside, footer, figcaption {
 :root {
     --white: #fff;
     --black: #000;
+    --black2: #333;
+    --black3: #444;
 }
 
 /* CSS */
@@ -26,7 +28,7 @@ body {
 .header {
     width: 100%;
     height: 50px;
-    background-color: #333;
+    background-color: var(--black2);
     position: fixed;
     top: 0;
     z-index: 3;
@@ -64,7 +66,7 @@ body {
     padding: 12px 15px 0;
 }
 .exit:hover, .header_title h1:hover {
-    background-color: #444;
+    background-color: var(--black3);
     color: #f7c08a;
 }
 /* Panel sections */
@@ -115,7 +117,7 @@ body {
 }
 .welcome_links:hover {
     color: var(--white);
-    background-color: #444;
+    background-color: var(--black3);
 }
 .welcome_icons {
     width: 25px;
@@ -144,7 +146,7 @@ body {
 }
 .changepass_btn {
     text-decoration: none;
-    background-color: #444;
+    background-color: var(--black3);
     color: var(--white);
     padding: 10px 15px;
     border-radius: 5px;
@@ -159,7 +161,7 @@ body {
     -o-transition: 0.5s ease;
 }
 .changepass_btn:hover {
-    background-color: #333;
+    background-color: var(--black2);
     color: var(--white);
 }
 /* Pelaks */
@@ -176,7 +178,7 @@ body {
     height: auto;
 }
 .dropbtn {
-    background-color: #444;
+    background-color: var(--black3);
     padding: 7.5px 0;
     color: var(--white);
     width: 100%;
@@ -214,7 +216,7 @@ body {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: #333;
+    background-color: var(--black2);
 }
 /* Pelak design */
 .pelak_container {
@@ -233,7 +235,7 @@ body {
     -o-border-radius: 5px;
 }
 .pelak_country {
-    background-color: blue;
+    background-color: #0000ff;
     width: auto;
     height: auto;
     text-align: left;
@@ -318,7 +320,7 @@ body {
     content: "";
     width: 250px;
     height: 250px;
-    background-color: #444;
+    background-color: var(--black3);
     position: absolute;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -342,7 +344,7 @@ body {
 }
 .charge_btn {
     text-decoration: none;
-    background-color: #444;
+    background-color: var(--black3);
     color: var(--white);
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -360,7 +362,7 @@ body {
     margin: 0 auto;
 }
 .charge_btn:hover {
-    background-color: #333;
+    background-color: var(--black2);
     color: #f7c08a;
 }
 .progress_contain, .progress_text, .charge {
@@ -407,7 +409,7 @@ body {
 .footer {
     width: 100%;
     height: auto;
-    background-color: #333;
+    background-color: var(--black2);
     color: var(--white);
     padding: 15px 0;
     opacity: 0.8;
