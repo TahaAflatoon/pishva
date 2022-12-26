@@ -173,9 +173,11 @@ body {
 }
 /* Dropdown */
 .dropdown {
-    display: inline-block;
+    display: block;
     width: 400px;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .dropbtn {
     background-color: var(--black3);
