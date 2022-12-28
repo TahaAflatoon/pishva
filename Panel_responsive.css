@@ -52,6 +52,8 @@
     }
     .dropdown {
         width: 250px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pelak_details {
         width: 150px;
@@ -172,6 +174,8 @@
     }
     .dropdown {
         width: 275px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pelak_details {
         width: 175px;
@@ -292,6 +296,8 @@
     }
     .dropdown {
         width: 300px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pelak_details {
         width: 175px;
@@ -403,6 +409,8 @@
     }
     .dropdown {
         width: 350px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pelak_details {
         width: 225px;
@@ -503,6 +511,10 @@
     .pelaks h3, .dropdown, .pelak_container, .last_park {
         margin: 55px 0 0;
     }
+    .dropdown {
+        margin-right: auto;
+        margin-left: auto;
+    }
     /* Wallet */
     .wallet {
         height: auto;
@@ -581,6 +593,10 @@
     }
     .pelaks h3, .dropdown, .pelak_container, .last_park {
         margin: 55px 0 0;
+    }
+    .dropdown {
+        margin-right: auto;
+        margin-left: auto;
     }
     /* Wallet */
     .wallet {
